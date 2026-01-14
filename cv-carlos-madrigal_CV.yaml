@@ -1,11 +1,11 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.6/schema.json
 cv:
   name: Carlos Enrique Madrigal Ramos
-  headline:
-  location: Santa Marta - Colombia
+  headline: Desarrollador .NET
+  location: Colombia / Venezuela
   email: carlosmad03@gmail.com
   photo:
-  phone: +57 3127580552
+  phone:
   # website: https://rendercv.com/
   social_networks:
     - network: LinkedIn
@@ -13,6 +13,12 @@ cv:
     - network: GitHub
       username: kikemadrigalr
   custom_connections:
+    - placeholder: "+57 3127580552 / +58 4227160862"
+      url: https://wa.me/573127580552
+      fontawesome_icon: phone
+    # - placeholder: "+58 4227160862"
+    #   url: https://wa.me/584227160862
+    #   fontawesome_icon: phone
   sections:
     Perfil Profesional:
       - Desarrollador .NET con 5 años de experiencia en el diseño de soluciones backend de alto impacto y gestión avanzada de bases de datos relacionales. Especialista en convertir desafíos operativos en ventajas competitivas mediante la automatización y el reporte estratégico, integrando herramientas de Inteligencia Artificial (Gemini CLI, MCP, Cursor) para potenciar la eficiencia y calidad del código.
@@ -37,7 +43,7 @@ cv:
           - Creación de reportes de indicadores con SQL Server y Reporting Services.
           - Desarrollo de páginas web y mantenimiento de aplicaciones internas.
       - company: Delegación de Deportes - Universidad de Oriente
-        position: Practicas Profesionales - Analista de Sistemas
+        position: Practicas Profesionales
         date: 2016
         location:
         summary:
@@ -51,16 +57,31 @@ cv:
         location: Venezuela
         summary:
     Proyectos:
-      - name: Automatización del proceso de emisión de Cartas de Trabajo
-        summary: Desarrollo de un módulo en el sistema Galexito RRHH que permite a los empleados generar certificados laborales de forma automática, reduciendo tiempos y eliminando procesos manuales.
-      - name: Desarrollo de reportes para la toma de decisiones gerenciales
-        summary: Creación de reportes gráficos y estructurados en SQL Server y Reporting Services, facilitando la visualización y análisis de información clave sobre procesos operativos.
-      - name: RDGENPP 2024
-        summary: Desarrollo de un sistema de seguimiento de muestras de pacientes para mejorar tratamientos y diagnósticos, optimizando el flujo de información entre laboratorios y centros de salud.
-      - name: RDSTP 2025
-        summary: Desarrollo de un ecosistema modular (.NET + Angular) para la trazabilidad de muestras médicas, con automatización documental, validaciones inteligentes y notificaciones integradas, mejorando la eficiencia operativa en el sector salud.
       - name: TBTB Connect 2.0
+        date: 2025 - 2026
         summary: Gestionar de forma integral la información operativa de clientes farmacéuticos, permitiendo registrar y supervisar actividades con médicos y pacientes, el seguimiento de procesos clínicos y la gestión completa de toma y transporte de muestras.
+      - name: RDSTP
+        date: 2025
+        summary: Desarrollo de un ecosistema modular (.NET + Angular) para la trazabilidad de muestras médicas, con automatización documental, validaciones inteligentes y notificaciones integradas, mejorando la eficiencia operativa en el sector salud.
+      - name: RDGENPP
+        date: 2024
+        summary: Desarrollo de un sistema de seguimiento de muestras de pacientes para mejorar tratamientos y diagnósticos, optimizando el flujo de información entre laboratorios y centros de salud.
+      - name: My home OI
+        date: 2018 - 2020
+        summary: Actualización de contenido, diseño y construcción de nuevas funcionalidades de la página web de la organización inmobiliaria My home. Con stack HTML 5, CSS 3, Bootstrap, javascript, jquery.
+      - name: Desarrollo de reportes para la toma de decisiones gerenciales
+        date: 2018 - 2020
+        summary: Creación de reportes gráficos y estructurados en SQL Server y Reporting Services, facilitando la visualización y análisis de información clave sobre procesos operativos.
+      - name: Automatización del proceso de emisión de Cartas de Trabajo
+        date: 2018
+        summary: Desarrollo de un módulo en el sistema Galexito RRHH que permite a los empleados generar certificados laborales de forma automática, reduciendo tiempos y eliminando procesos manuales.
+    Habilidades Técnicas:
+      - label: Backend
+        details: "Languages & Frameworks: C#, .NET, .NET Framework. Data Access & APIs: Entity Framework, REST API. Databases: SQL Server, MySQL."
+      - label: Frontend
+        details: "Frameworks: Angular. Web Technologies: JavaScript, HTML5, CSS3. UI Libraries: Bootstrap."
+      - label: Tools & DevOps
+        details: "Version Control: GIT. IDE/AI Tools: Visual Studio, Cursor, Gemini CLI, MCP, Chat GPT."
     Cursos:
       - Curso IA para Programadores - educacionIT
       - Curso de APIs con .NET - Platzi
@@ -74,13 +95,6 @@ cv:
       - Fundamentos de Javascript - Platzi
       - Curso De programación Orientada a Objetos, POO - Platzi
       - Curso de Frontend Developer - Platzi
-    Habilidades Técnicas:
-      - label: Backend
-        details: "Languages & Frameworks: C#, .NET, .NET Framework. Data Access & APIs: Entity Framework, REST API. Databases: SQL Server, MySQL."
-      - label: Frontend
-        details: "Frameworks: Angular. Web Technologies: JavaScript, HTML5, CSS3. UI Libraries: Bootstrap."
-      - label: Tools & DevOps
-        details: "Version Control: GIT. IDE/AI Tools: Visual Studio, Cursor, Gemini CLI, MCP, Chat GPT."
     Idiomas:
       - label: Español
         details: Nativo
@@ -90,6 +104,7 @@ cv:
       - Gran capacidad de aprendizaje autodidacta y adaptación a nuevas tecnologías.
       - Habilidades en trabajo en equipo y resolución de problemas.
       - Pasión por la innovación y la mejora continua en desarrollo de software.
+      - Musico trompetista profesional
 design:
   theme: classic
   # page:
@@ -181,7 +196,17 @@ design:
   #     space_above: 0cm
   #     space_between_items: 0cm
   #     space_between_bullet_and_text: 0.5em
-  # templates:
+  templates:
+    education_entry:
+      degree_column: ''
+      main_column: |-
+        **INSTITUTION**, AREA
+        **DEGREE**
+        SUMMARY
+        HIGHLIGHTS
+        LOCATION
+      date_and_location_column: |-
+        DATE
   #   footer: '*NAME -- PAGE_NUMBER/TOTAL_PAGES*'
   #   top_note: '*LAST_UPDATED CURRENT_DATE*'
   #   single_date: MONTH_ABBREVIATION YEAR
