@@ -77,7 +77,9 @@ cv:
         summary: Desarrollo de un módulo en el sistema Galexito RRHH que permite a los empleados generar certificados laborales de forma automática, reduciendo tiempos y eliminando procesos manuales.
     Habilidades Técnicas:
       - label: Backend
-        details: "Languages & Frameworks: C#, .NET, .NET Framework. Data Access & APIs: Entity Framework, REST API. Databases: SQL Server, MySQL."
+        details: "Languages & Frameworks: C#, .NET, .NET Framework. Data Access & APIs: REST API, Entity Framework."
+      - label: Databases
+        details: "SQL Server, MySQL."
       - label: Frontend
         details: "Frameworks: Angular. Web Technologies: JavaScript, HTML5, CSS3. UI Libraries: Bootstrap."
       - label: Tools & DevOps
