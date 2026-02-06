@@ -2,11 +2,11 @@
 cv:
   name: Carlos Enrique Madrigal Ramos
   headline: Desarrollador .NET
-  location: Colombia / Venezuela
+  location: Colombia
   email: carlosmad03@gmail.com
   photo:
   phone:
-  # website: https://rendercv.com/
+  # website: https://rendercv.com/--
   social_networks:
     - network: LinkedIn
       username: carlosmad03
@@ -85,6 +85,7 @@ cv:
       - label: Tools & DevOps
         details: "Version Control: GIT. IDE/AI Tools: Visual Studio, Cursor, Gemini CLI, MCP, Chat GPT."
     Cursos:
+      - Curso Fundamentos de Python - Platzi
       - Curso IA para Programadores - educacionIT
       - Curso de APIs con .NET - Platzi
       - Fundamentos de Entity Framework - Platzi
