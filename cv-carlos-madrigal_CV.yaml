@@ -1,8 +1,8 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.6/schema.json
 cv:
   name: Carlos Enrique Madrigal Ramos
-  headline: Desarrollador .NET
-  location: Colombia
+  headline: Desarrollador Full Stack Angular + .NET Core + IA
+  location: Venezuela
   email: carlosmad03@gmail.com
   photo:
   phone:
@@ -13,7 +13,7 @@ cv:
     - network: GitHub
       username: kikemadrigalr
   custom_connections:
-    - placeholder: "+57 3127580552 / +58 4227160862"
+    - placeholder: "+58 4227160862"
       url: https://wa.me/573127580552
       fontawesome_icon: phone
     # - placeholder: "+58 4227160862"
@@ -21,8 +21,8 @@ cv:
     #   fontawesome_icon: phone
   sections:
     Perfil Profesional:
-      - Desarrollador .NET con 5 años de experiencia en el diseño de soluciones backend de alto impacto y gestión avanzada de bases de datos relacionales. Especialista en convertir desafíos operativos en ventajas competitivas mediante la automatización y el reporte estratégico, integrando herramientas de Inteligencia Artificial (Gemini CLI, MCP, Cursor) para potenciar la eficiencia y calidad del código.
-      - Con dominio técnico en .NET, C# y SQL Server, mi enfoque se centra en la escalabilidad y la mejora continua, con la visión de aportar valor técnico y evolucionar hacia roles de mayor responsabilidad en equipos de alto rendimiento.
+      - Desarrollador Full Stack con 5 años de experiencia, especializado en backend con .NET Core y frontend con Angular. Construyo interfaces modulares sobre design systems reutilizables y diseño APIs REST, usando OpenAPI/Swagger como contrato de integración entre frontend y backend.
+      - Integro Inteligencia Artificial (Claude Code, Cursor, MCP) en el ciclo de desarrollo para acelerar entregas y elevar la calidad del código. Experiencia 100% remota en proyectos del sector salud y farmacéutico, con dominio de SQL Server y enfoque en escalabilidad y mejora continua.
     Experiencia Profesional:
       - company: TBTB Global
         position: Desarrollador Full Stack
@@ -30,17 +30,19 @@ cv:
         location:
         summary:
         highlights:
-          - Desarrollo de soluciones backend con .NET 6, 7, 8, optimizando tiempos de respuesta y escalabilidad.
-          - Desarrollo y mantenimiento de APIs REST con seguridad y eficiencia.
-          - Desarrollo de bases de datos relacionales y procedimientos almacenados.
+          - Diseño de APIs REST bajo enfoque API-first / Spec Driven Development, usando OpenAPI/Swagger como contrato de integración entre los equipos frontend y backend.
+          - Arquitectura backend con .NET Core en proyectos del sector salud y farmacéutico, optimizando tiempos de respuesta y escalabilidad.
+          - Modelado de bases de datos relacionales y procedimientos almacenados en SQL Server.
+          - Desarrollo de interfaces web modulares en Angular (16/18) con arquitectura basada en componentes, módulos, servicios, lazy loading y un design system reutilizable, integradas a servicios .NET.
+          - Integración de IA (Claude Code, Cursor, MCP) en el ciclo de desarrollo, reduciendo tiempos de entrega y mejorando la calidad del código.
       - company: Empresas Andinas
         position: Analista de Sistemas - Desarrollo
         date: 2018 - 2020
         location:
         summary:
         highlights:
-          - Desarrollo de módulos para sistema de gestión Galexito en .NET Framework.
-          - Creación de reportes de indicadores con SQL Server y Reporting Services.
+          - Desarrollo de módulos para sistema de gestión interno Galexito en .NET Framework 4.5.
+          - Creación de reportes de indicadores con SQL Server y Reporting Services y .Net Framework.
           - Desarrollo de páginas web y mantenimiento de aplicaciones internas.
       - company: Delegación de Deportes - Universidad de Oriente
         position: Practicas Profesionales
@@ -61,7 +63,7 @@ cv:
         date: 2025 - 2026
         summary: Gestionar de forma integral la información operativa de clientes farmacéuticos, permitiendo registrar y supervisar actividades con médicos y pacientes, el seguimiento de procesos clínicos y la gestión completa de toma y transporte de muestras.
       - name: RDSTP
-        date: 2025
+        date: 2025 - 2026
         summary: Desarrollo de un ecosistema modular (.NET + Angular) para la trazabilidad de muestras médicas, con automatización documental, validaciones inteligentes y notificaciones integradas, mejorando la eficiencia operativa en el sector salud.
       - name: RDGENPP
         date: 2024
@@ -77,14 +79,23 @@ cv:
         summary: Desarrollo de un módulo en el sistema Galexito RRHH que permite a los empleados generar certificados laborales de forma automática, reduciendo tiempos y eliminando procesos manuales.
     Habilidades Técnicas:
       - label: Backend
-        details: "Languages & Frameworks: C#, .NET, .NET Framework. Data Access & APIs: REST API, Entity Framework."
-      - label: Databases
-        details: "SQL Server, MySQL."
+        details: "C#, .NET Core (6/7/8), .NET Framework. REST API, Entity Framework. Spec Driven Development con OpenAPI/Swagger (API-first)."
+      - label: Bases de Datos
+        details: "SQL Server (procedimientos almacenados, optimización, reporting), MySQL."
       - label: Frontend
-        details: "Frameworks: Angular. Web Technologies: JavaScript, HTML5, CSS3. UI Libraries: Bootstrap."
-      - label: Tools & DevOps
-        details: "Version Control: GIT. IDE/AI Tools: Visual Studio, Cursor, Gemini CLI, MCP, Chat GPT."
+        details: "Angular (14/16/18): componentes, módulos, servicios, lazy loading y design systems reutilizables. JavaScript ES6+, HTML5, CSS3, Bootstrap."
+      - label: Herramientas & DevOps
+        details: "GIT, Azure DevOps, Visual Studio, Postman."
+    Inteligencia Artificial:
+      - label: Claude Code & Cursor
+        details: "Uso diario — generación de código, refactorización, debugging y documentación. Impacto: menor tiempo de entrega y mayor calidad de código."
+      - label: MCP (Model Context Protocol)
+        details: "Implementado en proyectos reales de TBTB para integrar IA con APIs internas de la organización."
+      - label: Gemini CLI & ChatGPT
+        details: "Investigación técnica y prototipado rápido para acelerar la adopción de nuevas tecnologías."
     Cursos:
+      - Curso de Claude AI - Platzi
+      - Curso de Claude Code - Platzi
       - Curso Fundamentos de Python - Platzi
       - Curso IA para Programadores - educacionIT
       - Curso de APIs con .NET - Platzi
@@ -104,13 +115,36 @@ cv:
       - label: Inglés
         details: B1
     Datos de Interés:
-      - Gran capacidad de aprendizaje autodidacta y adaptación a nuevas tecnologías.
-      - Habilidades en trabajo en equipo y resolución de problemas.
-      - Pasión por la innovación y la mejora continua en desarrollo de software.
-      - Musico trompetista profesional
+      - Gran capacidad de aprendizaje autodidacta y adopción acelerada de nuevas tecnologías.
+      - Experiencia consolidada en trabajo 100% remoto y colaboración con equipos distribuidos.
+      - Músico trompetista profesional.
 design:
   theme: classic
-  # page:
+  page:
+    size: us-letter
+    top_margin: 0.6in
+    bottom_margin: 0.6in
+    left_margin: 0.6in
+    right_margin: 0.6in
+  colors:
+    name: rgb(26, 86, 160)
+    headline: rgb(26, 86, 160)
+    connections: rgb(26, 86, 160)
+    section_titles: rgb(26, 86, 160)
+    links: rgb(26, 86, 160)
+  typography:
+    line_spacing: 0.55em
+    date_and_location_column_alignment: right
+    font_size:
+      body: 10pt
+  section_titles:
+    type: with_partial_line
+    space_above: 0.3cm
+    space_below: 0.2cm
+  sections:
+    space_between_regular_entries: 0.9em
+    space_between_text_based_entries: 0.2em
+  # page_unused:
   #   size: us-letter
   #   top_margin: 0.7in
   #   bottom_margin: 0.7in
@@ -284,7 +318,7 @@ locale:
   #   - November
   #   - December
 settings:
-  current_date: '2026-01-12'
+  current_date: '2026-08-03'
   render_command:
     design:
     locale:

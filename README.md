@@ -73,6 +73,8 @@ Con dominio técnico en **.NET, C# y SQL Server**, mi enfoque se centra en la es
 
 ## 📚 Cursos y Certificaciones
 
+- Curso de Claude AI - Platzi
+- Curso de Claude Code - Platzi
 - Curso Fundamentos de Python - Platzi
 - Curso IA para Programadores - educacionIT
 - Curso de APIs con .NET - Platzi
@@ -160,5 +162,5 @@ Este proyecto es de uso personal. El contenido del CV es propiedad de **Carlos E
 ---
 
 <p align="center">
-  <em>Última actualización: Febrero 2026</em>
+  <em>Última actualización: Agosto 2026</em>
 </p>
