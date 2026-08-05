@@ -57,6 +57,10 @@ Con dominio técnico en **.NET, C# y SQL Server**, mi enfoque se centra en la es
 - **Lenguajes & Frameworks:** C#, .NET, .NET Framework
 - **Acceso a Datos & APIs:** REST API, Entity Framework
 
+### Testing & Calidad
+- **Pruebas:** xUnit (unitarias e integración), Playwright (E2E)
+- **Prácticas:** Code reviews, refactorización, principios SOLID
+
 ### Bases de Datos
 - SQL Server, MySQL
 
@@ -67,7 +71,7 @@ Con dominio técnico en **.NET, C# y SQL Server**, mi enfoque se centra en la es
 
 ### Herramientas & DevOps
 - **Control de Versiones:** GIT
-- **IDE/Herramientas IA:** Visual Studio, Cursor, Gemini CLI, MCP, ChatGPT
+- **IDE/Herramientas IA:** Visual Studio, Claude Code, Cursor, Gemini CLI, MCP, ChatGPT
 
 ---
 

@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.6/schema.json
 cv:
   name: Carlos Enrique Madrigal Ramos
-  headline: Desarrollador Full Stack Angular + .NET Core + IA
+  headline: 'Desarrollador Backend .NET | APIs REST escalables | Testing & Full Stack Angular'
   location: Colombia
   email: carlosmad03@gmail.com
   photo:
@@ -13,7 +13,7 @@ cv:
     - network: GitHub
       username: kikemadrigalr
   custom_connections:
-    - placeholder: "+58 4227160862"
+    - placeholder: "+57 3127580552"
       url: https://wa.me/573127580552
       fontawesome_icon: phone
     # - placeholder: "+58 4227160862"
@@ -21,8 +21,8 @@ cv:
     #   fontawesome_icon: phone
   sections:
     Perfil Profesional:
-      - Desarrollador Full Stack con 5 años de experiencia, especializado en backend con .NET Core y frontend con Angular. Construyo interfaces modulares sobre design systems reutilizables y diseño APIs REST, usando OpenAPI/Swagger como contrato de integración entre frontend y backend.
-      - Integro Inteligencia Artificial (Claude Code, Cursor, MCP) en el ciclo de desarrollo para acelerar entregas y elevar la calidad del código. Experiencia 100% remota en proyectos del sector salud y farmacéutico, con dominio de SQL Server y enfoque en escalabilidad y mejora continua.
+      - Desarrollador backend con 5 años de experiencia diseñando y manteniendo APIs REST robustas y escalables con .NET. Aplico enfoque API-first / Spec Driven Development con OpenAPI/Swagger como contrato de integración, con foco en código de alta calidad, refactors seguros y code reviews. Complemento con desarrollo Full Stack en Angular sobre design systems reutilizables.
+      - Aseguro la confiabilidad mediante pruebas automatizadas con xUnit y dominio de SQL Server. Integro Inteligencia Artificial (Claude Code, Cursor, MCP) en el ciclo de desarrollo para acelerar entregas y elevar la calidad del código. Experiencia en modalidad remota (proyectos del sector salud y farmacéutico) y presencial (proyectos de otros sectores), con enfoque en escalabilidad y mejora continua.
     Experiencia Profesional:
       - company: TBTB Global
         position: Desarrollador Full Stack
@@ -30,8 +30,10 @@ cv:
         location:
         summary:
         highlights:
-          - Diseño de APIs REST bajo enfoque API-first / Spec Driven Development, usando OpenAPI/Swagger como contrato de integración entre los equipos frontend y backend.
-          - Arquitectura backend con .NET Core en proyectos del sector salud y farmacéutico, optimizando tiempos de respuesta y escalabilidad.
+          - Diseño y mantenimiento de APIs REST robustas y escalables bajo enfoque API-first / Spec Driven Development, usando OpenAPI/Swagger como contrato de integración entre los equipos frontend y backend.
+          - Arquitectura backend con .NET en proyectos del sector salud y farmacéutico, optimizando tiempos de respuesta y escalabilidad.
+          - Implementación de pruebas automatizadas con xUnit en servicios .NET, elevando la confiabilidad y habilitando refactors complejos de forma segura.
+          - Refactorización de código y code reviews como práctica continua para sostener altos estándares de calidad y mantenibilidad.
           - Modelado de bases de datos relacionales y procedimientos almacenados en SQL Server.
           - Desarrollo de interfaces web modulares en Angular (16/18) con arquitectura basada en componentes, módulos, servicios, lazy loading y un design system reutilizable, integradas a servicios .NET.
           - Integración de IA (Claude Code, Cursor, MCP) en el ciclo de desarrollo, reduciendo tiempos de entrega y mejorando la calidad del código.
@@ -79,36 +81,31 @@ cv:
         summary: Desarrollo de un módulo en el sistema Galexito RRHH que permite a los empleados generar certificados laborales de forma automática, reduciendo tiempos y eliminando procesos manuales.
     Habilidades Técnicas:
       - label: Backend
-        details: "C#, .NET Core (6/7/8), .NET Framework. REST API, Entity Framework. Spec Driven Development con OpenAPI/Swagger (API-first)."
+        details: "C# (paradigma OOP y tipado equivalente a Java), .NET (6/7/8), .NET Framework. REST API, Entity Framework. Spec Driven Development con OpenAPI/Swagger (API-first). Python (fundamentos)."
+      - label: Testing & Calidad
+        details: "xUnit, pruebas unitarias y de integración, Playwright (E2E / pruebas en vivo durante el desarrollo), code reviews, refactorización, principios SOLID."
       - label: Bases de Datos
         details: "SQL Server (procedimientos almacenados, optimización, reporting), MySQL."
       - label: Frontend
         details: "Angular (14/16/18): componentes, módulos, servicios, lazy loading y design systems reutilizables. JavaScript ES6+, HTML5, CSS3, Bootstrap."
       - label: Herramientas & DevOps
-        details: "GIT, Azure DevOps, Visual Studio, Postman."
+        details: "GIT, Visual Studio, Postman."
     Inteligencia Artificial:
       - label: Claude Code & Cursor
         details: "Uso diario — generación de código, refactorización, debugging y documentación. Impacto: menor tiempo de entrega y mayor calidad de código."
       - label: MCP (Model Context Protocol)
-        details: "Implementado en proyectos reales de TBTB para integrar IA con APIs internas de la organización."
+        details: "Implementado en proyectos reales de TBTB para integrar IA con APIs internas de la organización. Uso del Playwright MCP para ejecutar pruebas E2E en vivo dirigidas por IA durante el desarrollo."
       - label: Gemini CLI & ChatGPT
         details: "Investigación técnica y prototipado rápido para acelerar la adopción de nuevas tecnologías."
     Cursos:
-      - Curso de Claude AI - Platzi
-      - Curso de Claude Code - Platzi
-      - Curso Fundamentos de Python - Platzi
-      - Curso IA para Programadores - educacionIT
-      - Curso de APIs con .NET - Platzi
-      - Fundamentos de Entity Framework - Platzi
-      - Principios SOLID con C# y .NET - Platzi
-      - Fundamentos de C# con NET Core - Platzi
-      - Curso de ASP .NET Core - Platzi
-      - SQL Basic - HackerRank
-      - SQL Intermediate - HackerRank
-      - Curso Profesional de Git y GitHub - Platzi
-      - Fundamentos de Javascript - Platzi
-      - Curso De programación Orientada a Objetos, POO - Platzi
-      - Curso de Frontend Developer - Platzi
+      - Curso de Claude AI · Curso de Claude Code — Platzi
+      - Fundamentos de Python (Platzi) · IA para Programadores (educacionIT)
+      - Curso de APIs con .NET · Fundamentos de Entity Framework — Platzi
+      - Principios SOLID con C# y .NET · Fundamentos de C# con .NET — Platzi
+      - Curso de ASP.NET Core · Programación Orientada a Objetos, POO — Platzi
+      - SQL Basic · SQL Intermediate — HackerRank
+      - Git y GitHub · Fundamentos de Javascript — Platzi
+      - Curso de Frontend Developer — Platzi
     Idiomas:
       - label: Español
         details: Nativo
@@ -116,7 +113,7 @@ cv:
         details: B1
     Datos de Interés:
       - Gran capacidad de aprendizaje autodidacta y adopción acelerada de nuevas tecnologías.
-      - Experiencia consolidada en trabajo 100% remoto y colaboración con equipos distribuidos.
+      - Experiencia en modalidades remota, presencial e híbrida, con adaptabilidad a distintos equipos y sectores.
       - Músico trompetista profesional.
 design:
   theme: classic
@@ -318,7 +315,7 @@ locale:
   #   - November
   #   - December
 settings:
-  current_date: '2026-08-03'
+  current_date: '2026-08-05'
   render_command:
     design:
     locale:
