@@ -21,7 +21,7 @@ cv:
     #   fontawesome_icon: phone
   sections:
     Perfil Profesional:
-      - Desarrollador backend con 5 años de experiencia diseñando y manteniendo APIs REST robustas y escalables con .NET. Aplico enfoque API-first / Spec Driven Development con OpenAPI/Swagger como contrato de integración, con foco en código de alta calidad, refactors seguros y code reviews. Complemento con desarrollo Full Stack en Angular sobre design systems reutilizables.
+      - Desarrollador backend con 5 años de experiencia diseñando y manteniendo APIs REST robustas y escalables con .NET. Desarrollo guiado por especificaciones (PRD), con OpenAPI/Swagger como contrato de integración entre frontend y backend, y foco en código de alta calidad, refactors seguros y code reviews. Complemento con desarrollo Full Stack en Angular sobre design systems reutilizables.
       - Aseguro la confiabilidad mediante pruebas automatizadas con xUnit y dominio de SQL Server. Integro Inteligencia Artificial (Claude Code, Cursor, MCP) en el ciclo de desarrollo para acelerar entregas y elevar la calidad del código. Experiencia en modalidad remota (proyectos del sector salud y farmacéutico) y presencial (proyectos de otros sectores), con enfoque en escalabilidad y mejora continua.
     Experiencia Profesional:
       - company: TBTB Global
@@ -30,7 +30,7 @@ cv:
         location:
         summary:
         highlights:
-          - Diseño y mantenimiento de APIs REST robustas y escalables bajo enfoque API-first / Spec Driven Development, usando OpenAPI/Swagger como contrato de integración entre los equipos frontend y backend.
+          - Diseño y mantenimiento de APIs REST robustas y escalables, con desarrollo guiado por especificaciones (PRD) y OpenAPI/Swagger como contrato de integración entre los equipos frontend y backend.
           - Arquitectura backend con .NET en proyectos del sector salud y farmacéutico, optimizando tiempos de respuesta y escalabilidad.
           - Implementación de pruebas automatizadas con xUnit en servicios .NET, elevando la confiabilidad y habilitando refactors complejos de forma segura.
           - Refactorización de código y code reviews como práctica continua para sostener altos estándares de calidad y mantenibilidad.
@@ -43,9 +43,10 @@ cv:
         location:
         summary:
         highlights:
-          - Desarrollo de módulos para sistema de gestión interno Galexito en .NET Framework 4.5.
-          - Creación de reportes de indicadores con SQL Server y Reporting Services y .Net Framework.
-          - Desarrollo de páginas web y mantenimiento de aplicaciones internas.
+          - Desarrollo de módulos para el sistema de gestión interno Galexito en .NET Framework 4.5 con ASP.NET Web Forms (páginas ASPX, controles de servidor y code-behind en C#), desplegados en IIS.
+          - Creación de reportes gráficos y estructurados de indicadores con SQL Server y Reporting Services para la toma de decisiones gerenciales.
+          - Automatización de la emisión de cartas de trabajo en el módulo de RRHH de Galexito, permitiendo a los empleados generar certificados laborales por sí mismos y eliminando un proceso manual.
+          - Desarrollo de páginas web y mantenimiento de aplicaciones internas sobre el mismo stack.
       - company: Delegación de Deportes - Universidad de Oriente
         position: Practicas Profesionales
         date: 2016
@@ -61,6 +62,9 @@ cv:
         location: Venezuela
         summary:
     Proyectos:
+      - name: DxOne — Programa de Diagnóstico LATAM
+        date: 2026
+        summary: Solución regional para el diagnóstico de enfermedades raras de una farmacéutica global en Colombia, México, Argentina y Chile, que engloba tres programas antes operados en plataformas independientes. Desarrollo de los módulos de Médicos, Pacientes y Red Dx en DxOne Connect (CRM web sobre TBTB Connect 2.0), sincronización con la app móvil, flujo de solicitudes diagnósticas y corrección de hallazgos en hypercare. .NET 8, Angular, SQL Server, Azure, Clean Architecture, aislamiento multi-división y cumplimiento de normativas de datos personales de los cuatro países.
       - name: TBTB Connect 2.0
         date: 2025 - 2026
         summary: Gestionar de forma integral la información operativa de clientes farmacéuticos, permitiendo registrar y supervisar actividades con médicos y pacientes, el seguimiento de procesos clínicos y la gestión completa de toma y transporte de muestras.
@@ -70,18 +74,15 @@ cv:
       - name: RDGENPP
         date: 2024
         summary: Desarrollo de un sistema de seguimiento de muestras de pacientes para mejorar tratamientos y diagnósticos, optimizando el flujo de información entre laboratorios y centros de salud.
+      - name: Galexito — Sistema de gestión interno
+        date: 2018 - 2020
+        summary: Módulos web para el sistema de gestión de Empresas Andinas en .NET Framework 4.5 con ASP.NET Web Forms (ASPX) y SQL Server, desplegados en IIS, incluyendo reportes gerenciales con Reporting Services y la automatización de cartas de trabajo en RRHH.
       - name: My home OI
         date: 2018 - 2020
-        summary: Actualización de contenido, diseño y construcción de nuevas funcionalidades de la página web de la organización inmobiliaria My home. Con stack HTML 5, CSS 3, Bootstrap, javascript, jquery.
-      - name: Desarrollo de reportes para la toma de decisiones gerenciales
-        date: 2018 - 2020
-        summary: Creación de reportes gráficos y estructurados en SQL Server y Reporting Services, facilitando la visualización y análisis de información clave sobre procesos operativos.
-      - name: Automatización del proceso de emisión de Cartas de Trabajo
-        date: 2018
-        summary: Desarrollo de un módulo en el sistema Galexito RRHH que permite a los empleados generar certificados laborales de forma automática, reduciendo tiempos y eliminando procesos manuales.
+        summary: Actualización de contenido, diseño y construcción de nuevas funcionalidades de la página web de la organización inmobiliaria My home. Con stack HTML5, CSS3, Bootstrap, JavaScript y jQuery.
     Habilidades Técnicas:
       - label: Backend
-        details: "C# (paradigma OOP y tipado equivalente a Java), .NET (6/7/8), .NET Framework. REST API, Entity Framework. Spec Driven Development con OpenAPI/Swagger (API-first). Python (fundamentos)."
+        details: "C# (paradigma OOP y tipado equivalente a Java), .NET 6–10, .NET Framework 4.5 (ASP.NET Web Forms / ASPX), ASP.NET MVC. REST API, Entity Framework. OpenAPI/Swagger como contrato de integración; desarrollo guiado por especificaciones (PRD). Python (fundamentos)."
       - label: Testing & Calidad
         details: "xUnit, pruebas unitarias y de integración, Playwright (E2E / pruebas en vivo durante el desarrollo), code reviews, refactorización, principios SOLID."
       - label: Bases de Datos
@@ -315,7 +316,7 @@ locale:
   #   - November
   #   - December
 settings:
-  current_date: '2026-08-05'
+  current_date: '2026-09-14'
   render_command:
     design:
     locale:
