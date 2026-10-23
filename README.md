@@ -1,100 +1,80 @@
-# CV - Carlos Enrique Madrigal Ramos
+# CV — Carlos Enrique Madrigal Ramos
 
 <p align="center">
-  <strong>Desarrollador .NET</strong><br>
-  Colombia | <a href="mailto:carlosmad03@gmail.com">carlosmad03@gmail.com</a> | <a href="https://wa.me/573127580552">+57 3127580552</a> / +58 4227160862<br>
-  <a href="https://linkedin.com/in/carlosmad03">LinkedIn</a> | <a href="https://github.com/kikemadrigalr">GitHub</a>
+  <strong>Desarrollador Backend .NET · APIs REST escalables · Testing & Full Stack Angular</strong><br>
+  Venezuela / Colombia · <a href="mailto:carlosmad03@gmail.com">carlosmad03@gmail.com</a> · <a href="https://wa.me/573127580552">+57 312 758 0552</a> / +58 422 716 0862<br>
+  <a href="https://linkedin.com/in/carlosmad03">LinkedIn</a> · <a href="https://github.com/kikemadrigalr">GitHub</a>
 </p>
 
 ---
 
-## 📋 Descripción
+## Descripción
 
-Este repositorio contiene el código fuente de mi Currículum Vitae profesional, gestionado con [RenderCV](https://rendercv.com/). El CV está definido en formato YAML y puede ser exportado a múltiples formatos (PDF, HTML, Markdown, PNG).
-
----
-
-## 👤 Perfil Profesional
-
-Desarrollador .NET con **5 años de experiencia** en el diseño de soluciones backend de alto impacto y gestión avanzada de bases de datos relacionales. Especialista en convertir desafíos operativos en ventajas competitivas mediante la automatización y el reporte estratégico, integrando herramientas de **Inteligencia Artificial** (Gemini CLI, MCP, Cursor) para potenciar la eficiencia y calidad del código.
-
-Con dominio técnico en **.NET, C# y SQL Server**, mi enfoque se centra en la escalabilidad y la mejora continua, con la visión de aportar valor técnico y evolucionar hacia roles de mayor responsabilidad en equipos de alto rendimiento.
+Código fuente de mi currículum profesional, gestionado con [RenderCV](https://rendercv.com/). El CV se define en un único archivo YAML (`cv-carlos-madrigal_CV.yaml`) y se compila a PDF, HTML, Markdown y PNG. El YAML es la fuente de verdad; este README es un resumen.
 
 ---
 
-## 💼 Experiencia Profesional
+## Perfil Profesional
 
-| Empresa | Cargo | Período |
-|---------|-------|---------|
-| **TBTB Global** | Desarrollador Full Stack | 2023 - Actualidad |
-| **Empresas Andinas** | Analista de Sistemas - Desarrollo | 2018 - 2020 |
-| **Delegación de Deportes - UDO** | Prácticas Profesionales | 2016 |
+Desarrollador backend con **5 años de experiencia** diseñando y manteniendo APIs REST robustas y escalables con .NET. Enfoque API-first con OpenAPI/Swagger como contrato de integración entre frontend y backend, y foco en código de alta calidad, refactors seguros y code reviews. Complemento con desarrollo Full Stack en Angular sobre design systems reutilizables.
+
+Trayectoria completa en el ecosistema .NET: desde **.NET Framework 4.5 con Web Forms** en sistemas de gestión interna hasta **.NET 6–10** en plataformas clínicas en producción. Pruebas automatizadas con **xUnit** y **Playwright**, dominio de **SQL Server**, e integración de **IA** (Claude Code, Cursor, MCP) en el ciclo de desarrollo. Experiencia remota (sector salud y farmacéutico) y presencial (otros sectores).
 
 ---
 
-## 🎓 Educación
+## Experiencia Profesional
 
-- **Licenciado en Informática** - Universidad de Oriente (UDO), Venezuela (2019)
+| Empresa | Cargo | Período | Stack principal |
+|---------|-------|---------|-----------------|
+| **TBTB Global** | Desarrollador Full Stack | 2023 – Actualidad | .NET 6–10, Angular 16/18, SQL Server, xUnit, Playwright, Azure |
+| **Empresas Andinas** | Analista de Sistemas – Desarrollo | 2018 – 2020 | .NET Framework 4.5, ASP.NET Web Forms (ASPX), SQL Server, SSRS, IIS |
+| **Delegación de Deportes – UDO** | Prácticas Profesionales | 2016 | Análisis de sistemas |
 
 ---
 
-## 🚀 Proyectos Destacados
+## Educación
+
+- **Licenciado en Informática** — Universidad de Oriente (UDO), Venezuela, 2019
+
+---
+
+## Proyectos Destacados
 
 | Proyecto | Período | Descripción |
 |----------|---------|-------------|
-| **TBTB Connect 2.0** | 2025-2026 | Gestión integral de información operativa para clientes farmacéuticos |
-| **RDSTP** | 2025 | Ecosistema modular (.NET + Angular) para trazabilidad de muestras médicas |
-| **RDGENPP** | 2024 | Sistema de seguimiento de muestras de pacientes |
-| **My home OI** | 2018-2020 | Desarrollo web para organización inmobiliaria (HTML5, CSS3, Bootstrap, JS) |
-| **Reportes Gerenciales** | 2018-2020 | Reportes en SQL Server y Reporting Services |
-| **Automatización Cartas de Trabajo** | 2018 | Módulo en Galexito RRHH para generación automática de certificados |
+| **DxOne — Programa de Diagnóstico LATAM** | 2026 | Solución regional para el diagnóstico de enfermedades raras de una farmacéutica global en Colombia, México, Argentina y Chile, que engloba tres programas antes operados en plataformas independientes. Módulos de Médicos, Pacientes y Red Dx en DxOne Connect, sincronización con app móvil, flujo de solicitudes diagnósticas e hypercare. .NET 8, Angular, SQL Server, Azure, Clean Architecture. |
+| **TBTB Connect 2.0** | 2025 – 2026 | CRM operativo para clientes farmacéuticos: actividades con médicos y pacientes, seguimiento de procesos clínicos y gestión de toma y transporte de muestras. Módulos genéricos construidos por configuración SQL. |
+| **RDSTP** | 2025 – 2026 | Ecosistema modular para la trazabilidad de muestras médicas: registro de sample, TRF, tracking de muestras y paquetes hasta el laboratorio. Backend .NET. |
+| **RDGENPP** | 2024 | Sistema de seguimiento de muestras de pacientes entre laboratorios y centros de salud. |
+| **Galexito — Sistema de gestión interno** | 2018 – 2020 | Módulos web en .NET Framework 4.5 con Web Forms y SQL Server en IIS, reportes gerenciales con SSRS y automatización de cartas de trabajo en RRHH. |
+| **My home OI** | 2018 – 2020 | Sitio web de organización inmobiliaria (HTML5, CSS3, Bootstrap, JavaScript, jQuery). |
 
 ---
 
-## 🛠️ Habilidades Técnicas
+## Habilidades Técnicas
 
-### Backend
-- **Lenguajes & Frameworks:** C#, .NET, .NET Framework
-- **Acceso a Datos & APIs:** REST API, Entity Framework
+**Backend** — C#, .NET 6–10, .NET Framework 4.5 (ASP.NET Web Forms / ASPX), ASP.NET MVC, REST API, Entity Framework, API-first con OpenAPI/Swagger, Python (fundamentos)
 
-### Testing & Calidad
-- **Pruebas:** xUnit (unitarias e integración), Playwright (E2E)
-- **Prácticas:** Code reviews, refactorización, principios SOLID
+**Testing & Calidad** — xUnit (unitarias e integración), Playwright (E2E), code reviews, refactorización, principios SOLID
 
-### Bases de Datos
-- SQL Server, MySQL
+**Bases de Datos** — SQL Server (procedimientos almacenados, optimización, reporting), MySQL
 
-### Frontend
-- **Frameworks:** Angular
-- **Tecnologías Web:** JavaScript, HTML5, CSS3
-- **Librerías UI:** Bootstrap
+**Frontend** — Angular 14/16/18 (componentes, módulos, servicios, lazy loading, design systems), JavaScript ES6+, HTML5, CSS3, Bootstrap
 
-### Herramientas & DevOps
-- **Control de Versiones:** GIT
-- **IDE/Herramientas IA:** Visual Studio, Claude Code, Cursor, Gemini CLI, MCP, ChatGPT
+**Herramientas** — Git, Visual Studio, Postman
+
+**Inteligencia Artificial** — Claude Code y Cursor (uso diario: generación, refactorización, debugging, documentación) · MCP (integración de IA con APIs internas; Playwright MCP para E2E dirigidas por IA) · Gemini CLI y ChatGPT (investigación y prototipado)
 
 ---
 
-## 📚 Cursos y Certificaciones
+## Cursos
 
-- Curso de Claude AI - Platzi
-- Curso de Claude Code - Platzi
-- Curso Fundamentos de Python - Platzi
-- Curso IA para Programadores - educacionIT
-- Curso de APIs con .NET - Platzi
-- Fundamentos de Entity Framework - Platzi
-- Principios SOLID con C# y .NET - Platzi
-- Fundamentos de C# con .NET Core - Platzi
-- Curso de ASP.NET Core - Platzi
-- SQL Basic & Intermediate - HackerRank
-- Curso Profesional de Git y GitHub - Platzi
-- Fundamentos de Javascript - Platzi
-- POO - Platzi
-- Frontend Developer - Platzi
+Claude AI · Claude Code · Fundamentos de Python · APIs con .NET · Entity Framework · Principios SOLID con C# y .NET · Fundamentos de C# con .NET · ASP.NET Core · POO · Git y GitHub · Fundamentos de JavaScript · Frontend Developer — Platzi
+IA para Programadores — educacionIT · SQL Basic & Intermediate — HackerRank
 
 ---
 
-## 🌍 Idiomas
+## Idiomas
 
 | Idioma | Nivel |
 |--------|-------|
@@ -103,68 +83,55 @@ Con dominio técnico en **.NET, C# y SQL Server**, mi enfoque se centra en la es
 
 ---
 
-## 🎯 Datos de Interés
+## Datos de Interés
 
-- Gran capacidad de aprendizaje autodidacta y adaptación a nuevas tecnologías
-- Habilidades en trabajo en equipo y resolución de problemas
-- Pasión por la innovación y la mejora continua en desarrollo de software
+- Gran capacidad de aprendizaje autodidacta y adopción acelerada de nuevas tecnologías
+- Experiencia en modalidades remota, presencial e híbrida, con adaptabilidad a distintos equipos y sectores
 - Músico trompetista profesional
 
 ---
 
-## 📁 Estructura del Proyecto
+## Estructura del Proyecto
 
 ```
 cv_carlos_madrigal/
-├── cv-carlos-madrigal_CV.yaml   # Archivo fuente del CV (RenderCV)
-├── README.md                     # Este archivo
-├── .gitignore                    # Archivos ignorados por Git
-└── rendercv_output/              # Archivos generados (PDF, HTML, etc.)
+├── cv-carlos-madrigal_CV.yaml   # Fuente del CV (RenderCV) — única fuente de verdad
+├── README.md                    # Este resumen
+├── CLAUDE.md                    # Contexto para Claude Code
+├── .gitignore
+└── rendercv_output/             # Generado (PDF, HTML, MD, PNG) — ignorado por Git
 ```
 
 ---
 
-## 🔧 Uso
+## Uso
 
-### Requisitos
-- Python 3.8+
-- RenderCV (`pip install rendercv`)
-
-### Generar el CV
+Requisitos: Python 3.8+ y RenderCV (`pip install rendercv`).
 
 ```bash
-# Generar todos los formatos (PDF, HTML, Markdown, PNG)
+# Todos los formatos → rendercv_output/
 rendercv render cv-carlos-madrigal_CV.yaml
 
 # Solo PDF
 rendercv render cv-carlos-madrigal_CV.yaml --pdf-only
 ```
 
-### Archivos Generados
-Los archivos se guardan en la carpeta `rendercv_output/`:
-- `carlos_enrique_madrigal_ramos_CV.pdf`
-- `carlos_enrique_madrigal_ramos_CV.html`
-- `carlos_enrique_madrigal_ramos_CV.md`
-- `carlos_enrique_madrigal_ramos_CV.png`
+Salida: `rendercv_output/Carlos_Enrique_Madrigal_Ramos_CV.{pdf,html,md,png}`.
+
+Antes de generar, actualizar `settings.current_date` en el YAML (o eliminar la línea para usar la fecha del sistema).
 
 ---
 
-## ⚙️ Configuración
+## Configuración
 
-El CV utiliza el tema **Classic** de RenderCV con las siguientes personalizaciones:
-
-- **Idioma:** Español
-- **Plantilla de Educación:** Personalizada para evitar problemas de formato con títulos largos
-- **Iconos:** FontAwesome (usando nombres simples, ej: `phone`)
+Tema **Classic** de RenderCV, idioma español, plantilla de educación personalizada para títulos largos, iconos FontAwesome (`phone`, etc.).
 
 ---
 
-## 📄 Licencia
+## Licencia
 
-Este proyecto es de uso personal. El contenido del CV es propiedad de **Carlos Enrique Madrigal Ramos**.
-
----
+Uso personal. El contenido es propiedad de **Carlos Enrique Madrigal Ramos**.
 
 <p align="center">
-  <em>Última actualización: Agosto 2026</em>
+  <em>Última actualización: Octubre 2026</em>
 </p>
